@@ -1,0 +1,25 @@
+#navbar {
+  text-align: center;
+  background-color: #af2323;
+  padding: 2%;
+  border-radius: 15px;
+}
+
+button {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: large;
+  font-family: quicksand;
+  border: none;
+  background-color: #f3eae8;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
