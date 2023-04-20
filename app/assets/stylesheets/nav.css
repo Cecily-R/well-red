@@ -2,7 +2,7 @@
   text-align: center;
   background-color: #af2323;
   padding: 2%;
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 
 button {
@@ -15,7 +15,7 @@ button {
   font-family: quicksand;
   border: none;
   background-color: #f3eae8;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   font-weight: bolder;
   text-align: center;
 }
