@@ -1,3 +1,11 @@
- description {
-  white-space: pre-wrap;
+ .title {
+  text-align: center;
+  padding-top: 2%;
+ }
+
+ #description {
+  text-align: center;
+  padding-top: 0.5%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
