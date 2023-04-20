@@ -23,3 +23,16 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+.action_button {
+  position: relative;
+  text-align: left;
+  background-color: #f3eae8;
+  padding: 2%;
+  margin-right: 90%;
+}
+
+.action_button a {
+  color: black;
+  text-decoration: none;
+} 

@@ -1,6 +1,14 @@
   <h2 class='title'>About Us</h2>
   <div id='description'>
     <% description = @contentful_service.description.split('/n').each do |sentence| %>
-            <p><%= sentence + '.' %></p>
+            <p><%= sentence %></p>
           <% end %> 
   </div> 
+
+  <div class="image_container">
+    <% @contentful_service.images.each do |image| %>
+      <img class='image' src=<%= image.url %>>
+    <% end  %>
+  </div>
+
+  
