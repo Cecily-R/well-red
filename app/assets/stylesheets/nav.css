@@ -15,7 +15,6 @@ button {
   font-family: quicksand;
   border: none;
   background-color: #f3eae8;
-  /* border-radius: 10px; */
   font-weight: bolder;
   text-align: center;
 }
@@ -28,8 +27,12 @@ button:hover {
   position: relative;
   text-align: left;
   background-color: #f3eae8;
-  padding: 2%;
-  margin-right: 90%;
+  padding: 1%;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline;
+
 }
 
 .action_button a {

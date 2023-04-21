@@ -16,3 +16,18 @@
   text-align: center;
   margin-top: 2%;
 }
+
+@media (max-width: 768px) {
+  #intro {
+  margin-right: 0;
+  margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #homepage_image {
+    width: 100%;
+    height: auto;
+    margin: 2% auto; 
+  }
+}

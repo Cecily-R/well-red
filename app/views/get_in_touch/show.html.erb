@@ -1,1 +1,21 @@
-<p>Hi</p>
+<h2 class=title>Get In Touch!</h2>
+
+<p class='description'>
+  If you'd like us to support a left-wing/union event, drop us a line at <%= @contentful_service.contact_email %>, or type your message below and we'll get back to you as soon as we can.
+</p>
+
+<div id='contact-form-container'>
+
+    <label>Name</label>
+    <input type="text" class="form-input">
+
+    <label>Email Address</label>
+    <input type="text" class="form-input">
+
+    <label for="mesage">Message</label>
+    <textarea class="form-input" placeholder="Write your message here" style="height:200px"></textarea>
+
+    <input type="submit" id="submit-button" value="Submit">
+
+  </form>
+</div>
