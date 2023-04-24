@@ -17,11 +17,16 @@
  */
 
 
- body {
+body {
   font-family: quicksand;
   background-color: #f3eae8;
   margin-left: 7%;
   margin-right: 7%;
   padding-bottom: 2%;
-  }
+}
+
+.flash_error_message {
+  text-align: center;
+  padding-top: 4%;
+}
 

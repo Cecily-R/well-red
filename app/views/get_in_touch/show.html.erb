@@ -15,12 +15,6 @@
 
     <label for="message">Message</label>
     <textarea name="message" class="form-input" placeholder="Write your message here" style="height:200px"></textarea>
-    <div class='flash_error_message'>
-      <% flash.each do  |_, msg| %>
-        <div class='error_message'>
-          <%= msg %>
-          </div>
-      <% end %>
     </div>
 
     <button type="submit" id="submit-button">"Submit"</button>
