@@ -5,17 +5,25 @@
 </p>
 
 <div id='contact-form-container'>
+  <form action="/get_in_touch" method="post">
 
     <label>Name</label>
-    <input type="text" class="form-input">
+    <input name="name" type="text" class="form-input">
 
     <label>Email Address</label>
-    <input type="text" class="form-input">
+    <input name="email" type="email" class="form-input">
 
-    <label for="mesage">Message</label>
-    <textarea class="form-input" placeholder="Write your message here" style="height:200px"></textarea>
+    <label for="message">Message</label>
+    <textarea name="message" class="form-input" placeholder="Write your message here" style="height:200px"></textarea>
+    <div class='flash_error_message'>
+      <% flash.each do  |_, msg| %>
+        <div class='error_message'>
+          <%= msg %>
+          </div>
+      <% end %>
+    </div>
 
-    <input type="submit" id="submit-button" value="Submit">
+    <button type="submit" id="submit-button">"Submit"</button>
 
   </form>
-</div>
+</div> 

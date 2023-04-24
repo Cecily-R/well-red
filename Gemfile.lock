@@ -90,6 +90,8 @@ GEM
     diff-lcs (1.5.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    email_validator (2.2.4)
+      activemodel
     erubi (1.12.0)
     execjs (2.8.1)
     ffi (1.15.5)
@@ -248,6 +250,7 @@ DEPENDENCIES
   bootstrap (~> 5.1)
   contentful
   debug
+  email_validator
   importmap-rails
   jbuilder
   pg (~> 1.1)
