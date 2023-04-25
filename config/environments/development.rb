@@ -67,7 +67,7 @@ Rails.application.configure do
     port: 587,
     domain: 'example.com',
     user_name: Rails.application.secrets[:mailer_authentification_username],
-    password: [:mailer_authentification_password],
+    password: Rails.application.secrets[:mailer_authentification_password],
     authentication: 'plain',
     enable_starttls_auto: true
   }
