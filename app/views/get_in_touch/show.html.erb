@@ -8,13 +8,13 @@
   <form action="/get_in_touch" method="post">
 
     <label>Name</label>
-    <input name="name" type="text" class="form-input">
+    <input name="name" type="text" class="form-input" required>
 
     <label>Email Address</label>
-    <input name="email" type="email" class="form-input">
+    <input name="email" type="email" class="form-input" required>
 
     <label for="message">Message</label>
-    <textarea name="message" class="form-input" placeholder="Write your message here" style="height:200px"></textarea>
+    <textarea name="message" class="form-input" placeholder="Write your message here" style="height:200px" required></textarea>
     </div>
 
     <button type="submit" id="submit-button">"Submit"</button>

@@ -5,13 +5,12 @@ class GetInTouchController < ApplicationController
 
   def create 
     @contact = ContactMailer.contact_message(params[:name], params[:email], params[:message])
-    if EmailValidator.valid?(@contact.from.first)
+    if EmailValidator.valid?(@contact.from.first) 
       @contact.deliver
       redirect_back(fallback_location: '/')
-      flash[:alert] = "Thanks for getting in touch! We'll get back to you as soon as we can"
-
+      flash[:alert] = "Thanks for getting in touch! We'll get back to you as soon as we can."
     else
-      flash[:notice] = "Please provide a valid email address"
+      :show
     end 
   end 
 end
