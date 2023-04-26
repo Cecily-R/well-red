@@ -1,0 +1,19 @@
+  <h2 class='page-title'>GIGS!</h2>
+
+<div class='gig-container'>
+  <% @gigs.each do |gig| %>
+    <h3 class='gig-title'><%= gig.title %></h3>
+      <p class='gig-description'><%= gig.description %></p>
+      <div>
+        <% if gig.location %>
+          <p class='gig-location'><%= gig.location %></p>
+        <% end %>
+      </div>
+      <div>
+        <% if gig.date_and_time %>
+          <p class='gig-date-time'><%= gig.date_and_time %></p>
+        <% end %>
+      </div>
+      <img class='gig-media' src=<% gig.image.url %>>
+  <% end %>
+</div>

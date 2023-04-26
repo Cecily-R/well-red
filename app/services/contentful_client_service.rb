@@ -7,7 +7,8 @@ class ContentfulClientService
       access_token: ACCESS_TOKEN,
       space: SPACE_ID,
       dynamic_entries: :auto,
-      raise_errors: true
+      raise_errors: true,
+      raise_for_empty_fields: false,
     )
   end
 end

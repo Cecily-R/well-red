@@ -8,4 +8,6 @@ get '/get_in_touch', to: 'get_in_touch#show'
 
 post '/get_in_touch', to: 'get_in_touch#create'
 
+get '/gigs', to: 'gigs#show'
+
 end
