@@ -1,5 +1,5 @@
   <h2 class='title'>About Us</h2>
-  <div id='description'>
+  <div class='description'>
     <% description = @contentful_service.description.split('/n').each do |sentence| %>
             <p><%= sentence %></p>
           <% end %> 

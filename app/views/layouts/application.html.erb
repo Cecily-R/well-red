@@ -17,12 +17,15 @@
   <body>
       <%= render 'layouts/banner'%>
       <%= render 'layouts/nav'%>
-      <div class='flash_error_message'>
-      <% flash.each do  |_, msg| %>
-        <div class='error_message'>
-          <%= msg %>
-          </div>
-      <% end %>
+      <%- if flash[:alert] %>
+        <div class='flash_error_message'>
+          <% flash.each do |_, msg| %>
+            <div class='error-message'>
+              <%= msg %>
+            </div>
+          <% end %>
+        </div>
+      <% end%>
       <%= yield %>
   </body>
 </html>

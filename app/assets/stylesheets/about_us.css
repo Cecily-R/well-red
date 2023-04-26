@@ -3,9 +3,8 @@
   padding-top: 0%;
  }
 
- #description {
+ .description {
   text-align: center;
-  padding-top: 0.5%;
   margin-right: 10%;
   margin-left: 10%;
 }

@@ -1,10 +1,15 @@
-#banner {
-  text-align: center;
-  padding-bottom: 1%;
+#banner_container {
+  height: auto;
+  margin-bottom: -10px;
+  padding-bottom: 0;
+  line-height: 0;
+  background-color: #af2323;
+}
+
+#banner-image {
+  max-width: 100%;
+  max-height: auto;
 } 
 
-#website-title a {
-  color: black;
-  text-decoration: none;
-}
+
 
