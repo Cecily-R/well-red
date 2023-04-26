@@ -23,11 +23,29 @@
 }
 
 body {
-  font-family: quicksand;
+  font-family: Lato;
+  font-weight: 300;
   background-color: #f3eae8;
   margin-left: 7%;
   margin-right: 7%;
   padding-bottom: 2%;
+}
+
+.website-title-container {
+  text-align: center;
+  padding-top: 2%;
+}
+
+#line-one {
+  font-family: 'Montserrat';
+  color: black;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+#line-two {
+  font-family: 'Montserrat';
+  font-size: 20px;
 }
 
 .flash_error_message {

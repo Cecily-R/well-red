@@ -5,8 +5,14 @@
 
  .description {
   text-align: center;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-bottom: 1.5%;
+}
+
+.description p {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+
 }
 
 .image_container {
