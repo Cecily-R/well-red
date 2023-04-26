@@ -32,7 +32,6 @@ RSpec.describe 'get_in_touch', type: :feature do
 
         expect(current_path).to eq "/get_in_touch"
         expect(page).to have_content "Thanks for getting in touch! We'll get back to you as soon as we can"
-      
       end
     end
   end
