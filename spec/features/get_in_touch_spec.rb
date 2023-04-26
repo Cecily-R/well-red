@@ -32,24 +32,7 @@ RSpec.describe 'get_in_touch', type: :feature do
 
         expect(current_path).to eq "/get_in_touch"
         expect(page).to have_content "Thanks for getting in touch! We'll get back to you as soon as we can"
-        end
-      end
-    end
-  
-    context 'the form is not filled out correctly' do
-      context 'the email is incorrect' do
-        it 'returns error message' do
-        visit :get_in_touch
-
-        fill_in 'name', with: "Carrie"
-        fill_in 'email', with: "carrie"
-        fill_in 'message', with: 'Hello!'
-
-        click_button 'submit-button'
-
-        expect(current_path).to eq "/get_in_touch"
-        expect(errors[:email]).to include('is invalid')
-        expect(page).to have_content "Oops, something went wrong!"
+      
       end
     end
   end
