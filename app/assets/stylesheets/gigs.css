@@ -1,8 +1,39 @@
-.page-title {
-  text-align: center;
-  margin-top: 2%;
+.gig {
+  margin-bottom: 2%;
+  background-color: white;
+  display: flex;
+  align-items: left;
+  box-shadow: 5px 5px 5px #971a16;
+  border-radius: 10px;
 }
 
-.gig-container {
-  border: 2px;
+.gig-content {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.gig-media {
+  float: inline-start;
+  width: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.gig-title {
+  padding-bottom: 2%;
+}
+
+.gig-description {
+  padding-bottom: 2%;
+  margin-right: 30px;
+}
+
+.gig-location {
+  padding-bottom: 2%;
+}
+.gig-time {
+  padding-bottom: 2%;
 }
