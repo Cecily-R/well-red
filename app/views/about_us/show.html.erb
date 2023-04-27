@@ -5,7 +5,7 @@
           <% end %> 
   </div> 
 
-  <div class="image_container">
+  <div class='image_container'>
     <% @contentful_service.images.each do |image| %>
       <img class='image' src=<%= image.url %>>
     <% end  %>
