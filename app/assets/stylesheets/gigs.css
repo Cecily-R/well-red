@@ -2,16 +2,19 @@
   margin-bottom: 2%;
   background-color: white;
   display: flex;
-  align-items: left;
   box-shadow: 5px 5px 5px #971a16;
   border-radius: 10px;
 }
 
+
+.notification {
+  margin-bottom: 2%;
+  color: #971a16;
+}
+
 .gig-content {
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  text-align: left;
+  margin: 30px;
+  width: 100%;
 }
 
 .gig-media {
@@ -20,20 +23,21 @@
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 30px;
+  align-items: left;
 }
 
 .gig-title {
-  padding-bottom: 2%;
+  padding-bottom: 1.5%;
 }
 
 .gig-description {
-  padding-bottom: 2%;
+  padding-bottom: 1.5%;
   margin-right: 30px;
 }
 
 .gig-location {
-  padding-bottom: 2%;
+  padding-bottom:1.5%;
 }
 .gig-time {
-  padding-bottom: 2%;
+  padding-bottom: 1.5%;
 }

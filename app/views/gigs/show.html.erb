@@ -1,4 +1,4 @@
-<h2 class='page-title'>GIGS!</h2>
+<h2 class='page-title'>Gigs!</h2>
 
 <div class='gigs-container'>
   <% @gigs.each do |gig| %>
@@ -7,6 +7,9 @@
       <img class='gig-media' src=<%= gig.image.url %>>
     <% end %>
     <div class='gig-content'>
+      <% if gig.date_and_time.to_date >= Date.today %>
+        <h3 class='notification'>Upcoming!</h3>
+      <% end %>
       <h3 class='gig-title'><%= gig.title %></h3>
         <p class='gig-description'><%= gig.description %></p>
         <div>
