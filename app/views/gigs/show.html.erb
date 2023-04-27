@@ -11,7 +11,9 @@
       </div>
       <div>
         <% if gig.date_and_time %>
-          <p class='gig-date-time'><%= gig.date_and_time %></p>
+        <% puts gig.date_and_time %>
+          <p class='gig-time'><%= gig.date_and_time.strftime('%H:%M ') %></p>
+          <p class='gig-date'><%= gig.date_and_time.strftime('%A, %d %B %Y') %></p>
         <% end %>
       </div>
       <img class='gig-media' src=<% gig.image.url %>>
