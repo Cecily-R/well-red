@@ -6,6 +6,9 @@
     <% if gig.image %>
       <img class='gig-media' src=<%= gig.image.url %>>
     <% end %>
+    <% if gig.video_link %> 
+        <%= gig.video_link["content"][0]["content"][0]["value"].html_safe %>  
+    <% end %>
     <div class='gig-content'>
       <% if gig.date_and_time.to_date >= Date.today %>
         <h3 class='notification'>Upcoming!</h3>
