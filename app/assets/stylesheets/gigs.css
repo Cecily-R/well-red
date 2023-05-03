@@ -1,8 +1,9 @@
 .gig {
-  margin-bottom: 2%;
+  margin: 0 auto 2%;
   background-color: white;
   display: flex;
-  box-shadow: 5px 5px 5px #971a16;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
   border-radius: 10px;
 }
 

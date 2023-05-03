@@ -1,22 +1,67 @@
 <h2 class='page-title'>Songs</h2>
 
-<div class='songs-table'>
-  <table id='song-table'>
+<table>
   <tr id='header-row'>
-    <th class='header'>Song Title</th>
-    <th class='header'>Score</th>
-    <th class='header'>Backing Vocals</th>
+    <th>Song Title</th>
+    <th>Score</th>
+    <th>Sound File</th>
+    <th>Soprano</th>
+    <th>Alto</th>
+    <th>Tenor</th>
+    <th>Base</th>
   </tr>
   <% @songs.each do |song| %>
     <tr class='table-contents-row'>
-      <td class='table-contents'><%= song.song_title%></td>
-      <td class='table-contents'>
-        <a href='<%= song.score %>'>Score</a>
-      </td>
-      <td class='table-contents'>
-        <a href='<%= song.backing_vocals%>'>Backing Vocals</a>
-      </td>
+      <td><%= song.title%></td>
+
+      <% if song.score %>
+        <td>
+          <a href='<%= song.score %>'>Score</a>
+        </td>
+      <% else %>
+        <td></td>
+      <% end %>
+
+      <% if song.sound_file %>
+        <td>
+          <a href='<%= song.sound_file %>'>Sound File</a>
+        </td>
+      <% else %>
+        <td></td>
+      <% end %>
+
+      <% if song.soprano %>
+        <td>
+          <a href='<%= song.soprano %>'>Soprano</a>
+        </td>
+      <% else %>
+        <td></td>
+      <% end %>
+
+      <% if song.alto %>
+        <td>
+          <a href='<%= song.alto %>'>Alto</a>
+        </td>
+      <% else %>
+        <td></td>
+      <% end %>
+
+      <% if song.tenor %>
+        <td>
+          <a href='<%= song.tenor %>'>Tenor</a>
+        </td>
+      <% else %>  
+        <td></td>
+      <% end %>
+
+      <% if song.bass %>
+        <td>
+          <a href='<%= song.bass %>'>Bass</a>
+        </td>
+      <% else %>
+        <td></td>
+      <% end %>
+      
     <tr>
   <% end %>  
-
-</div>
+</table>

@@ -10,7 +10,7 @@
         <%= gig.video_link["content"][0]["content"][0]["value"].html_safe %>  
     <% end %>
     <div class='gig-content'>
-      <% if gig.date_and_time.to_date >= Date.today %>
+      <% if gig.date_and_time && gig.date_and_time.to_date >= Date.today %>
         <h3 class='upcoming-notification'>Upcoming!</h3>
       <% end %>
       <h3 class='gig-title'><%= gig.title %></h3>
