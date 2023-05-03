@@ -1,0 +1,22 @@
+<h2 class='page-title'>Songs</h2>
+
+<div class='songs-table'>
+  <table id='song-table'>
+  <tr id='header-row'>
+    <th class='header'>Song Title</th>
+    <th class='header'>Score</th>
+    <th class='header'>Backing Vocals</th>
+  </tr>
+  <% @songs.each do |song| %>
+    <tr class='table-contents-row'>
+      <td class='table-contents'><%= song.song_title%></td>
+      <td class='table-contents'>
+        <a href='<%= song.score %>'>Score</a>
+      </td>
+      <td class='table-contents'>
+        <a href='<%= song.backing_vocals%>'>Backing Vocals</a>
+      </td>
+    <tr>
+  <% end %>  
+
+</div>

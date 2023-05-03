@@ -6,8 +6,7 @@
   border-radius: 10px;
 }
 
-
-.notification {
+.upcoming-notification {
   margin-bottom: 2%;
   color: #971a16;
 }
@@ -17,7 +16,7 @@
   width: 100%;
 }
 
-.gig-media {
+.gig-image {
   float: inline-start;
   width: 30%;
   margin-top: 30px;
@@ -40,4 +39,10 @@
 }
 .gig-time {
   padding-bottom: 1.5%;
+}
+
+iframe {
+  margin-left: 30px;
+  height: 300px;
+  width: 600px;
 }

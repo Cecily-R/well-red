@@ -10,4 +10,6 @@ post '/get_in_touch', to: 'get_in_touch#create'
 
 get '/gigs', to: 'gigs#show'
 
+get '/songs', to: 'songs#show' 
+
 end

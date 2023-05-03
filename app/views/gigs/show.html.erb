@@ -1,17 +1,17 @@
-<h2 class='page-title'>Gigs!</h2>
+<h2 class='page-title'>Gigs</h2>
 
 <div class='gigs-container'>
   <% @gigs.each do |gig| %>
     <div class='gig'>
     <% if gig.image %>
-      <img class='gig-media' src=<%= gig.image.url %>>
+      <img class='gig-image' src=<%= gig.image.url %>>
     <% end %>
     <% if gig.video_link %> 
         <%= gig.video_link["content"][0]["content"][0]["value"].html_safe %>  
     <% end %>
     <div class='gig-content'>
       <% if gig.date_and_time.to_date >= Date.today %>
-        <h3 class='notification'>Upcoming!</h3>
+        <h3 class='upcoming-notification'>Upcoming!</h3>
       <% end %>
       <h3 class='gig-title'><%= gig.title %></h3>
         <p class='gig-description'><%= gig.description %></p>
