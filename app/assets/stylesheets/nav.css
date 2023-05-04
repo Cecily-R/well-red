@@ -3,6 +3,9 @@
   background-color: #af2323;
   padding: 2.5%;
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* border-radius: 15px; */
 }
 
@@ -12,15 +15,13 @@ button:hover {
 
 .action_button {
   position: relative;
-  text-align: left;
   background-color: #f3eae8;
   padding: 1%;
   text-align: center;
   margin-left: 2%;
   margin-right: 2%;
-  display: inline;
   border-radius: 15px;
-
+  width: 10%;
 }
 
 .action_button a {
