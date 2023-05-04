@@ -47,3 +47,25 @@ iframe {
   height: 300px;
   width: 600px;
 }
+
+
+@media (max-width: 768px) {
+  .gig {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  iframe {
+    max-width: 90px;
+    max-height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .gig-image {
+    max-width: auto;
+    max-height: 90px;
+    align-items: center;
+  }
+}

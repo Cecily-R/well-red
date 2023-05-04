@@ -19,9 +19,9 @@
 }
 
 @media (max-width: 768px) {
-  #intro {
-  margin-right: 0;
-  margin-left: 0;
+  .description {
+
+  width: 100%;
   }
 }
 

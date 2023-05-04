@@ -6,6 +6,8 @@ table {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   background-color: white;
   border-collapse: collapse;
+  font-family: Montserrat;
+  font-weight: 500;
 }
 
 #header-row {
