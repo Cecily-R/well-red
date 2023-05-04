@@ -6,12 +6,11 @@
 
 .description {
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 80%;
 }
 
 #homepage_image {
-  width: 70%;
+  width: 80%;
 }
 
 #image_container {
