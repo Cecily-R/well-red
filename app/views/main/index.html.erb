@@ -1,5 +1,9 @@
 <h2 class='page-title'><%= @contentful_service.title %></h2>
-  <p class='description'><%= @contentful_service.introduction %></p>
+  <% @contentful_service.introduction.split('.').each do |sentence|%>
+    <p class='introduction'><%= sentence + '.' %></p>
+  <%end %>
   <div id='image_container'>
     <img id='homepage_image' src=<%=@contentful_service.image.url %>>
   </div>
+
+

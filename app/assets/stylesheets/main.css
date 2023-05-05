@@ -4,9 +4,9 @@
   margin-bottom: 2%;
 }
 
-.description {
+.introduction {
   text-align: center;
-  width: 80%;
+  padding-bottom: 5px;
 }
 
 #homepage_image {
