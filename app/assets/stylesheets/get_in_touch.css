@@ -31,7 +31,8 @@
 }
 
 #submit-button {
-  background-color: #7c2a45;
+  background-color: #ED2939;
+  ;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -40,16 +41,26 @@
 }
 
 @media (max-width: 768px) {
+  #contact-form-container {
+    margin-bottom: 20px;
+  }
   .form-input {
     max-width: 100%;
-    height: auto;
+    padding: 5px;
+    font-size: smaller;
   }
-}
 
-@media (max-width: 768px) {
   .description {
     margin-right: 0;
     margin-left: 0;
+  }
+
+  #submit-button {
+    max-width: 70px;
+    max-height: 40px;
+    font-size: smaller;
+    padding: 4px 10px;
+
   }
 }
 

@@ -71,6 +71,7 @@ body {
 @media (max-width: 768px) {
   body {
     font-size: 10px;
+    margin-bottom: 0;
   }
 }
 

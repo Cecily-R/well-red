@@ -19,7 +19,7 @@
 
 .gig-image {
   float: inline-start;
-  width: 30%;
+  width: 360px;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: 30px;
@@ -44,28 +44,40 @@
 
 iframe {
   margin-left: 30px;
-  height: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: auto;
   width: 600px;
 }
 
 
 @media (max-width: 768px) {
   .gig {
-    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .gig-content {
+    max-width: 90%;
+    margin: 3% 5px 10px 5px;
   }
 }
 
 @media (max-width: 768px) {
   iframe {
-    max-width: 90px;
-    max-height: auto;
+    width: 90%;
+    margin: 0%;
   }
 }
 
 @media (max-width: 768px) {
   .gig-image {
-    max-width: auto;
-    max-height: 90px;
+    float: none;
     align-items: center;
+    margin: 0 5px 10px 5px;
+    max-width: 90%;
   }
 }
