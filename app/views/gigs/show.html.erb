@@ -4,10 +4,14 @@
   <% @gigs.each do |gig| %>
     <div class='gig'>
     <% if gig.image %>
-      <img class='gig-image' src=<%= gig.image.url %>>
+        <div class=image-container>
+          <img class='gig-image' src=<%= gig.image.url %>>
+        </div>
     <% end %>
-    <% if gig.video_link %> 
-        <%= gig.video_link["content"][0]["content"][0]["value"].html_safe %>  
+    <% if gig.video_embed %>
+      <div class='embed-container'>
+        <%= gig.video_embed.html_safe %>  
+      </div>
     <% end %>
     <div class='gig-content'>
       <% if gig.date_and_time && gig.date_and_time.to_date >= Date.today %>
