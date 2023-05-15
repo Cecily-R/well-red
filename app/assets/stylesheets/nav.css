@@ -1,43 +1,50 @@
 #navbar {
-  text-align: center;
-  background-color: #ED2939;
-  padding: 2.5%;
-  margin: 0;
+}
+
+#navbar-links {
+  background-color: #EF0107;
+  padding: 2% 0 2% 0;
   display: flex;
   justify-content: center;
   align-items: center;   
+  text-align: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
 }
 
-.action_button {
+.button {
+  list-style-type: none;
   position: relative;
   background-color: #fffaf4;
-  padding: 1%;
-  text-align: center;
-  margin-left: 3%;
-  margin-right: 3%;
+  padding: 1% 0 1% 0;
+  margin: 0 3% 0 3%;
   border-radius: 5px;
-  width: 15%;
+  width: 12%;
   color: #7c2a45;
-  font-family: Montserrat;
-  font-weight: 500;
 }
 
-.action_button a {
+.button a {
   color: #7c2a45;
   text-decoration: none;
+  padding: 13px 35px 13px 35px;
 } 
 
 
 @media (max-width: 768px) {
-  .action_button {
+  .button {
     width: 20%;
     font-size: 8px;
     margin: 2% auto; 
   }
+
+  .button a {
+    color: #7c2a45;
+    text-decoration: none;
+    padding: 5px 12px 5px 12px;
+  } 
+
 }
