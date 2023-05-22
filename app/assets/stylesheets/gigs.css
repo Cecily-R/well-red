@@ -5,6 +5,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   width: 90%;
   border-radius: 10px;
+  color: black;
 }
 
 .upcoming-notification {

@@ -1,16 +1,16 @@
 .page-title {
-  text-align: center;
+  text-align: left;
   padding-top: 0%;
  }
 
 .description {
-  text-align: center;
+  text-align: left;
   margin-bottom: 1.5%;
   width: 80%;
 }
 
 .description p {
-  margin-left: 3%;
+  margin-left: 0%;
   margin-right: 3%;
   padding-bottom: 1%;
 }
