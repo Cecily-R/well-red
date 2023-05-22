@@ -1,0 +1,29 @@
+footer {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#social-media-container {
+  display: flex;
+  justify-content: center;
+}
+
+#twitter-icon {
+  width: 100%;
+  align-items: center;
+}
+
+#twitter-link {
+  width: 5%;
+  margin: 1% 2% 0 2%;
+}
+
+#facebook-icon {
+  width: 100%;
+  align-items: center;
+}
+
+#facebook-link {
+  width: 5%;
+  margin: 1% 2% 0 2%;
+}
