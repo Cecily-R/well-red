@@ -1,5 +1,15 @@
-p {
+#description-container {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
   margin-bottom: 3%;
+}
+
+.liscencing-description {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1%;
 }
 
 table {
