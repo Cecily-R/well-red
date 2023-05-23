@@ -1,12 +1,11 @@
 #description-container {
   width: 90%;
-  text-align: center;
-  margin: 0 auto;
   margin-bottom: 3%;
+  width: 100%;
 }
 
 .liscencing-description {
-  text-align: center;
+  text-align: left;
   width: 90%;
   margin: 0 auto;
   margin-bottom: 1%;
