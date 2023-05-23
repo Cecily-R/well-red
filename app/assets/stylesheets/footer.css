@@ -27,3 +27,25 @@ footer {
   width: 5%;
   margin: 1% 2% 0 2%;
 }
+
+@media (max-width: 1024px) {
+  #twitter-icon {
+    width: 100%;
+    margin: 0 4%;
+  }
+
+  #twitter-link {
+    width: 10%;
+    margin: 1% 4%;
+  }
+
+  #facebook-icon {
+    width: 100%;
+    margin: 0 4%;
+  }
+
+  #facebook-link {
+    width: 10%;
+    margin: 1% 4%;
+  }
+}
