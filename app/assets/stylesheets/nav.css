@@ -35,19 +35,40 @@
   /* padding: 13px 35px 13px 35px; */
 } 
 
+@media (max-width: 1024px) {
+  .button {
+    padding: 0;
+    width: 20%;
+  }
+
+  #navbar {
+    height: 100px;
+  }
+
+  #navbar-links {
+    padding: 4.5% 0;
+  }
+}
 
 @media (max-width: 768px) {
+  #navbar {
+    height: 15%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  #navbar-links {
+    padding: 4.5% 0;
+  }
+
   .button {
-    width: 20%;
-    font-size: 4px;
+    font-size: 10px;
+    padding: 1% 0;
     margin: 2% auto; 
   }
 
   .button a {
-    color: #000000;
-    text-decoration: none;
     width: 20%;
-    text-align: left;
     padding: 0;
   } 
 }

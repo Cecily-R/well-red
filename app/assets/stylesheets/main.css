@@ -21,15 +21,31 @@
   margin-top: 3%;
 }
 
-@media (max-width: 768px) {
-  .description {
-  width: 100%;
+@media (max-width: 1024px) {
+  #homepage_image {
+    width: 90%;
+  }
+
+  .introduction {
+    text-align: center;
+    margin: auto;
+    max-width: 90%;
+    font-size:x-large;
   }
 }
 
 @media (max-width: 768px) {
+  .page-title {
+    font-size: xx-large;
+  }
+
+  .introduction {
+    width: 90%;
+    font-size: medium;
+  }
+
   #homepage_image {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 2% auto; 
   }
