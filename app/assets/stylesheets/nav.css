@@ -32,21 +32,22 @@
 .button a {
   color: #000000;
   text-decoration: none;
-  padding: 13px 35px 13px 35px;
+  /* padding: 13px 35px 13px 35px; */
 } 
 
 
 @media (max-width: 768px) {
   .button {
     width: 20%;
-    font-size: 8px;
+    font-size: 4px;
     margin: 2% auto; 
   }
 
   .button a {
     color: #000000;
     text-decoration: none;
-    padding: 5px 12px 5px 12px;
+    width: 20%;
+    text-align: left;
+    padding: 0;
   } 
-
 }
