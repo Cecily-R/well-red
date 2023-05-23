@@ -86,9 +86,7 @@
     max-width: 90%;
     margin: 3% 5px 10px 5px;
   }
-}
 
-@media (max-width: 768px) {
   .embed-container {
     width: 90%;
     margin: 0%;
@@ -96,7 +94,7 @@
 }
 
 @media (max-width: 768px) {
-  .image-container {
+  .gig-image-container {
     width: 90%;
     margin: 0 
   }

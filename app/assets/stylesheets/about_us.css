@@ -28,14 +28,19 @@
   height: 375px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .image {
-    width: 90%;
-    height: auto;
+    width: 80%;
   }
 
-  .image-container {
-    width: 100%;
+  #description p {
+    margin:0 auto 1% 1%;  
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    height: auto; 
   }
 
   #description p {
