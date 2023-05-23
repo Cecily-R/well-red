@@ -44,6 +44,18 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .liscencing-description {
+    margin-bottom: 4%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .liscencing-description {
+    margin-bottom: 4%;
+  }
+}
+
 
 
 
