@@ -11,6 +11,7 @@
   <tr id='header-row'>
     <th>Song Title</th>
     <th>Score</th>
+    <th>Words</th>
     <th>All Parts</th>
     <th>Soprano</th>
     <th>Alto</th>
@@ -24,6 +25,14 @@
       <% if song.score %>
         <td>
           <a href='<%= song.score %>'>Score</a>
+        </td>
+      <% else %>
+        <td></td>
+      <% end %>
+
+      <% if song.words %>
+        <td>
+          <a href='<%= song.words %>'>Words</a>
         </td>
       <% else %>
         <td></td>
